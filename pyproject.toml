@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "check50", "submit50", "colorama", "cowsay"]
+requires = ["setuptools", "colorama", "cowsay"]
 build-backend = "setuptools.build_meta"
 
 [project]
