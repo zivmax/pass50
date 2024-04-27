@@ -10,7 +10,6 @@
 - **Identifier Selection**: Choose whether to identify assignments by directory or file names.
 - **Course Selection**: Specify which CS50 course you are submitting for (e.g., `x` for CS50x).
 - **Logging**: Option to print detailed logs for debugging and verification purposes.
-- **Environment Initialization**: Prepare your environment for using `pass50`.
 
 ## Installation
 
@@ -43,7 +42,6 @@ options:
   -l, --logs            print the logs of check50 & submit50.
   -upl, --unpassedLogs  print all logs of unpassed works at the bottom.
   -d, --dev             run in developing mode, printing all logs.
-  -I, --init            Init the env for the app.
 ```
 
 ## Example Commands

@@ -55,12 +55,6 @@ parser.add_argument(
     action="store_true",
     help="run in developping mode, printing all logs.",
 )
-parser.add_argument(
-    "-I",
-    "--init",
-    default=False,
-    action="store_true",
-    help="Init the env for the app.",
-)
+
 
 args = parser.parse_args()
