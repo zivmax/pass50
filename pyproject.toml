@@ -1,11 +1,12 @@
 [build-system]
-requires = ["setuptools", "colorama", "cowsay"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "pass50"
 version = "0.0.1"
 authors = [{ name = "zivmax", email = "zivmax@foxmail.com" }]
+maintainers = [{ name = "zivmax", email = "zivmax@foxmail.com" }]
 description = "A convinent tool to check and submit your codes to \"CS50\"."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -15,6 +16,15 @@ classifiers = [
     "Operating System :: POSIX :: Linux",
 ]
 
+dependencies = [
+  "cowsay",
+  "colorama",
+]
+
+[project.scripts]
+pass50 = "pass50:main"
+pass50-cli = "pass50:main"
+
 [project.urls]
-Homepage = "https://github.com/zivmax/pass50"
+Repository = "https://github.com/zivmax/pass50"
 Issues = "https://github.com/zivmax/pass50/issues"
