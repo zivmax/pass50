@@ -488,8 +488,8 @@ class Preparer:
 
         if PreRequests.returncode != 0:
             # Print the error message from pip.
-            print(Colored.red("Error:"))
-            print(Colored.red(stderr))
+            print(Colored.red("\nError:"))
+            print(stderr)
 
             sys.exit("\n" + Colored.red("Initialization failed! :("))
 
