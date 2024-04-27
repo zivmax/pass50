@@ -28,6 +28,12 @@ bash update.sh
 
 `update.sh` is also the script to update the `pass50` to the latest version.
 
+To uninstall `pass50`, you can run the following command:
+
+```bash
+rm -f ~/.local/bin/pass50
+```
+
 ## Usage
 
 ```plaintext
