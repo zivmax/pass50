@@ -46,10 +46,6 @@ options:
 
 ## Example Commands
 
-- **Initialize the environment**:
-  ```bash
-  pass50 --init
-  ```
 - **Check and Submit the current work directory**:
   ```bash
   pass50 --course x
