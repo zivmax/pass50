@@ -14,25 +14,17 @@
 
 ## Installation
 
-To install `pass50`, you can directly use the provided script:
-
-You can download the installation script:
+To install `pass50`, you can use `pip` 
 
 ```bash
-wget https://raw.githubusercontent.com/zivmax/pass50/main/update.sh
+pip install pass50
 ```
-, then run it to install:
-```bash
-bash update.sh
-```
-
-`update.sh` is also the script to update the `pass50` to the latest version.
-
-To uninstall `pass50`, you can run the following command:
+, or `pipx`
 
 ```bash
-rm -f ~/.local/bin/pass50
+pipx install pass50
 ```
+
 
 ## Usage
 
@@ -75,7 +67,7 @@ Contributions to `pass50` are welcome! Please feel free to fork the repository, 
 
 ## License
 
-`pass50` is released under the MIT License. See the LICENSE file in the repository for more details.
+`pass50` is released under the GPLv3 License. See the LICENSE file in the repository for more details.
 
 ## Contact
 
