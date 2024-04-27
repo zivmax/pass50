@@ -16,21 +16,17 @@
 
 To install `pass50`, you can directly use the provided script:
 
-```bash
-wget https://raw.githubusercontent.com/zivmax/pass50/main/main.py -O ./pass50.py
-mv pass50.py ~/.local/bin/pass50
-chmod +x ~/.local/bin/pass50
-```
-
-Alternatively, you can manually download the installation script:
+You can download the installation script:
 
 ```bash
 wget https://raw.githubusercontent.com/zivmax/pass50/main/update.sh
 ```
-, then run it:
+, then run it to install:
 ```bash
 bash update.sh
 ```
+
+`update.sh` is also the script to update the `pass50` to the latest version.
 
 ## Usage
 
