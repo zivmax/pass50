@@ -1,5 +1,5 @@
 import argparse
-from color import Colored
+from .color import Colored
 
 parser = argparse.ArgumentParser(
     prog="pass50",

@@ -1,12 +1,12 @@
 from subprocess import PIPE, Popen, TimeoutExpired
-from cmd50 import cmd50
 import time
 from time import sleep
 
 import cowsay
 
-from color import Colored
-from args import args
+from .cmd50 import cmd50
+from .color import Colored
+from .args import args
 
 class runner50:
     _DONE = "\033[1;32m" + "Done" + "\033[0m"

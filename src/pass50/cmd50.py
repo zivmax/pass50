@@ -1,7 +1,7 @@
 from subprocess import PIPE, Popen, TimeoutExpired
 
-from color import Colored
-from args import args
+from .color import Colored
+from .args import args
 
 class cmd50:
     _DONE = "\033[1;32m" + "Done" + "\033[0m"
