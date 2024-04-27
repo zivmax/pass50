@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pass50"
-version = "0.0.2"
+version = "0.0.3"
 authors = [{ name = "zivmax", email = "zivmax@foxmail.com" }]
 maintainers = [{ name = "zivmax", email = "zivmax@foxmail.com" }]
 description = "A convinent tool to check and submit your codes to \"CS50\"."
