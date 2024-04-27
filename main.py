@@ -10,7 +10,10 @@ from subprocess import PIPE, Popen, TimeoutExpired
 from time import sleep
 import datetime
 
-from colorama import Back, Fore, Style, init
+try:
+    from colorama import Back, Fore, Style, init
+except ImportError:
+    exit("\nThe env hasn't be prepared, run with `-I` argument to init the env.\n")
 
 init(autoreset=True)
 
