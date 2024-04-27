@@ -19,7 +19,8 @@ else
 fi
 
 # Move the file to the bin directory
-mv ./pass50.py "$TARGET"
+cp ./pass50.py "$TARGET"
+rm ./pass50.py
 chmod +x "$TARGET"
 
 # Provide user feedback based on installation or update
