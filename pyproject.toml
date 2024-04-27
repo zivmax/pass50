@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "check50", "submit50", "colorama", "cowsay"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pass50"
+version = "0.0.1"
+authors = [{ name = "zivmax", email = "zivmax@foxmail.com" }]
+description = "A convinent tool to check and submit your codes to \"CS50\"."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/zivmax/pass50"
+Issues = "https://github.com/zivmax/pass50/issues"
