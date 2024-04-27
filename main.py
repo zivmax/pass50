@@ -487,6 +487,10 @@ class Preparer:
             )
 
         if PreRequests.returncode != 0:
+            # Print the error message from pip.
+            print(Colored.red("Error:"))
+            print(Colored.red(stderr))
+
             sys.exit("\n" + Colored.red("Initialization failed! :("))
 
         pre_installed = True
